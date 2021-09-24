@@ -4,9 +4,13 @@ public class main {
 
 	public static void main(String[] args) {
 
-		System.out.println("day la nhanh Quan");
+		int i =0;
+		System.out.println("commit 3");
 
-		
+		String b;
+		int a;
+
+
 	}
 
 }
