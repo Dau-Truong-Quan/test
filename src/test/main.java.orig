@@ -4,7 +4,13 @@ public class main {
 
 	public static void main(String[] args) {
 
-		System.out.println("tao nhanh quan 2");
+		int i =0;
+		System.out.println("sửa tiếp");
+
+		String b;
+		int a;
+
+		int c;
 
 	}
 
