@@ -4,20 +4,18 @@ public class main {
 
 	public static void main(String[] args) {
 
-		int i =0;
-<<<<<<< HEAD
-		System.out.println("sửa tiếp");
-=======
-		System.out.println("commit 3");
->>>>>>> Quan
 
-		String b;
-		int a;
 
-<<<<<<< HEAD
-		int c;
-=======
->>>>>>> Quan
+		System.out.println("tao nhanh quan 2");
+
+
+		System.out.println("day la nhanh Quan");
+
+
+		
+		System.out.println("thu lan cuoi");
+
+		
 
 	}
 
