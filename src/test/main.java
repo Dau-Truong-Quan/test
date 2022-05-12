@@ -4,19 +4,15 @@ public class main {
 
 	public static void main(String[] args) {
 
-
-
-		System.out.println("tao nhanh quan 2");
-
-
-		System.out.println("day la nhanh Quan");
-
-
-		
-		System.out.println("thu lan cuoi");
-
-		
+		if ("".matches(FULLNAME_PATTERN)) {
+			System.out.println("ok");
+			System.out.println("ok");
+		}
 
 	}
+
+	private static final String FULLNAME_PATTERN = "^[a-zA-Z_ÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶ" +
+			"ẸẺẼỀỀỂưăạảấầẩẫậắằẳẵặẹẻẽềềểỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợ" +
+			"ụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ\\s]+$";
 
 }
